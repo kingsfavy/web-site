@@ -1,0 +1,41 @@
+
+
+
+body{
+   
+  background-image:url("ani.jpg");
+}
+
+.head{
+  color:white;
+  text-align:center;
+  font-weight:bolder;
+}
+.name{
+  font-weight:bolder;
+  font-size;15px;
+ -webkit-animation: top 1s normal ease-in 0s 1 both;
+}
+.passcode{
+   -webkit-animation: top 2s normal ease-in 0s 1 both;
+font-weight:bolder;
+  font-size;15px;
+
+}
+.passid{
+   -webkit-animation: top 1.5s normal ease-in 0s 1 both;
+  font-weight:bolder;
+  font-size;15px;
+}
+p{
+  color:white;
+}
+
+
+   @-webkit-keyframes top{
+  from{
+  -ms-webkit-transform:translate(1000px, 0px);
+  -webkit-transform:translate(1000px, 0px);
+  transform:translate(1000px, 0px);
+}
+}

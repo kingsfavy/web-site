@@ -1,0 +1,55 @@
+
+a{
+  color:white;
+}
+body{
+  text-align:center;
+  padding-top:30%;
+  color:white;
+  background-image:url("ani.jpg");
+  -webkit-animation: top 2s normal ease-in-out 0s 1 both;
+}
+
+.btn{
+  font-weight:bolder;
+     flex:1;
+     border-radius:15px;
+     text-align:center;
+     border:2px solid black;
+}
+container{
+  display:flex;
+  width:100%;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+.flex{
+  flex:1;
+}
+.head::first-letter{
+  color:blue;
+}
+.head{
+  text-align:center;
+}
+.hr{
+  width:80%;
+}
+p{
+  font-size:12px;
+  font-weight:bolder;
+}
+.par{
+  text-align:center;
+  font-size:15px;
+}
+
+   @-webkit-keyframes top{
+  from{
+  -ms-webkit-transform:translate(1000px, 0px);
+  -webkit-transform:translate(1000px, 0px);
+  transform:translate(1000px, 0px);
+}
+}
+
+   

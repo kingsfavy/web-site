@@ -1,0 +1,272 @@
+
+div#demo {
+         width: 300px;
+         height: 300px;
+         background: #173459;
+      
+         opacity: 1; /* default */
+         display: block; /* default */
+      
+         /* this will animate the element for 1
+            second when its properties change */
+         transition: all 1s;
+      }
+      div#demo {
+         width: 300px;
+         height: 300px;
+         background: #173459;
+      
+         opacity: 1; /* default */
+         display: block; /* default */
+      
+         /* this will animate the element for 1
+            second when its properties change */
+         transition: all 1s;
+      }
+body{
+  background-image:url("ani.jpg");
+   width:100%;
+   height:auto;
+   }
+}
+.bttn{
+  margin-top:90%;
+  color:white;
+  border: 3px solid white;
+  border-radius:15px;
+  width: auto;
+ text-align: center;
+ margin:0 50% 0 50%;
+}
+.btn{
+  color:black;
+  border: 3px solid white;
+  border-radius:15px;
+  width: auto;
+ text-align: center;
+ margin:0 50% 0 50%;
+}
+.cont{
+  display:flex;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+}
+content{
+  justify-content: space-around;
+display:flex;
+  width:100%;
+  flex-wrap:wrap;
+}  
+container {
+  text-align:center;
+  /*padding:0 5% 0 5%;*/
+  justify-content:space-evenly;
+  display:flex;
+  flex-wrap:wrap;
+  width:100%;
+  height:auto;
+}
+.flexs{
+  flex:1;
+  width:50%;
+}
+.flex{
+  postion:absolute;
+  z-index: 0;
+  flex:1;
+  width:100px;
+  height:100px;
+  filter:sepia(60%);
+}
+.elem{
+  margin:0 3% 0 3% ;
+  padding-left:4%;
+  border-radius:5px; 
+  text-align:left;
+  width:auto;
+  border:none;
+  color:white;
+ background-image:url("bg.jpg");
+}
+.h{
+  font-weight:bolder;
+  color:white;
+  flex:1;
+  width:50%;
+  -webkit-animation: bottom 3s normal  0s 1 both;
+}
+.hr{
+  margin-top:5%;
+}
+.home{
+  text-align: center;
+}
+img {
+         max-width: 100%;
+         height: auto;
+      }
+      
+.ico{
+  border-radius:1225px;
+  flex:1;
+  width:35px;
+  height:35px;
+}
+.icon{
+  background:white;
+ flex:1;
+  margin-right:1.5%;
+  border-radius:1225px;
+  float:right;
+  width:35px;
+  height:35px;
+  margin-top:2%;
+}
+
+.icons{
+  background:white;
+  margin-top:2%;
+  flex:1;
+  margin-right:5.4%;
+  border-radius:1225px;
+  float:right;
+  width:35px;
+  height:35px;
+}
+
+.p{
+  color:white;
+  font-weight:bolder;
+}
+      .dd {
+        flex:1;
+         position: relative;
+         display: inline-block;
+      }
+      .dd-btn {
+        flex:1;
+  flex-wrap:wrap;
+        border-radius:10px;
+         padding:15px;
+         text-align: center;
+         background: #173459;
+         min-width:300px;
+         color: #f8f9f9;
+      }
+      .dd-content {
+        flex:1;
+        position:relative;
+        border-radius:10px;
+        background:black;
+         position: absolute;
+         width: 100%;
+         box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+         height: 0px;
+         transition: height 1s;
+         overflow: hidden;
+        
+      }
+      .dd:hover > .dd-content {
+        width:300px;
+         height: 150px;
+      }
+      .dd-content > a {
+         display: block;
+         padding: 15px;
+         text-decoration: none;
+         color: white;
+         
+      }
+.lightbox {
+         display: table; 
+         position: fixed;
+         top: -100%; /
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: rgba(0, 0, 0, 1.0); 
+         transition-duration: 2s; 
+      }
+      .lightbox:target {
+         top: 0; 
+      }
+      .lightbox-content {
+        width:300px;
+        background:white;
+        margin:0;
+        padding-top:25px;
+         display: table-cell;
+         vertical-align: left; /* vertically center */
+         text-align: center; 
+         color:black;
+      }
+      ul#demo {
+         max-height: 100px;
+         overflow-y: hidden;
+      
+         /* this will animate the element for 1
+            second when its properties change */
+         transition: all 1s;
+      }
+        @-webkit-keyframes bottom{
+  from{
+  -ms-webkit-transform:translate(0px, 1000px);
+  -webkit-transform:translate(0px, 1000px);
+  transform:translate(0px, 1000px);
+}
+}
+     @media only screen and (orientation:landscape){body{
+  background-image:url("ani.jpg");}
+  .dd-btn{
+  flex-wrap:wrap;
+    min-width:600px;
+  }
+  container {
+  display:flex;
+  flex-wrap:wrap;
+  width:100%;
+  height:auto;
+}
+      .dd:hover > .dd-content {
+        width:600px;
+         height: 150px;
+      }
+  .input{
+    background:white;
+} 
+.icon{
+  background:white;
+  margin-top:1%;
+}
+.icons{
+  background:white;
+  margin-top:1%;
+}
+.lightbox {
+         visibility: hidden; /* hides the lightbox */
+         display: table; /* helps us center the lightbox-content */
+         
+         /* make the lightbox occupy the entire page */
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: rgba(0, 0, 0, 1.0); /* black with 0.7 opacity */
+      }
+      .lightbox:target {
+         visibility: visible;
+      }
+      .lightbox-content {
+        width:600px;
+         display: table-cell;
+         vertical-align: left; /* vertically center */
+         text-align: center; /* horizontally center */
+      }
+      
+      
+      /* make the image responsive */
+      img {
+         max-width: 100%;
+         height: auto;
+      }

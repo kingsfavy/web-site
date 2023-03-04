@@ -1,0 +1,47 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <link rel="stylesheet" href="signup.css">
+    <title>login</title>
+</head>
+<body> 
+<h2 class="head">SIGN UP</h2>
+<form action="htttps://codeliber.com/form-action.php" method="post" onsubmit="validateForm()">
+<input type ="text" placeholder="First Name" class="input"/>
+<br><br>
+<input type ="text" placeholder="Last Name" class="input"/>
+<br><br>
+<input type ="tel" placeholder="mobile number" class="input"/>
+<br><br>
+<p>Date Of Birth</p>
+<input type="date" placeholder="DOB" class="input"  "date"/>
+<br><br>
+<input type ="text" placeholder="country" class="input" />
+<br><br>
+<input type ="email" placeholder="email" id="email" class="input"/>
+<br><br>
+<p id="demo"><b>note:</b> the passcode will be use as your detail to login at anytime.</p>
+
+<button type="button" onclick="getRandomInt(1, 100000000)" class="btn"><b>generate passcode</b></button> 
+<br><br>
+
+
+<p>gender</p>
+<input type="radio" id="male" value="male" name="gender"  class="inputs"/>
+<label class="p">male</label>
+<input type="radio" id="female" value="female" name="gender" class="inputs"/>
+<label class="p">female</label>
+
+
+<br><br>
+<input type ="number" placeholder="input the passcode" class="input"/>
+<br><br>
+<a href="login.html"><button type="button" onclick="myFunc();" name="y" class="btn" "signup"><b>sign up</b></button></a>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>

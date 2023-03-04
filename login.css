@@ -1,0 +1,66 @@
+   
+   a{
+     color:aqua;
+     text-decoration:none;
+   }
+   body{
+     padding-top:55%;
+     text-align:center;
+    
+    background-image:url("ani.jpg");
+   width:100%;
+   height:auto;
+   }
+ .box{
+   
+ }
+   .flex{
+     display:flex;
+     width:100%;
+     flex-wrap:wrap;
+     justify-content:space-evenly;
+   }
+   h5{
+     color:white;
+     -webkit-animation: bottom 2.5s normal  0s 1 both;
+     font-size:10px;
+   }
+   .input{
+     font-weight:bolder;
+     padding-left:5%;
+     background:lightgrey;
+     width:80%;
+     height:30px;
+     border-radius:15px;
+     -webkit-animation: bottom 1s normal  0s 1 both;
+   }
+   .login{
+     text-align:center;
+     flex:1;
+     border-radius:15px;
+     text-align:center;
+     border:2px solid black;
+     -webkit-animation: bottom 2.5s normal  0s 1 both;
+   }.name::first-letter{
+     color:blue;
+   }
+   .name{
+     color:white;
+     text-align:center;
+   }
+   p{
+     color:white;
+   }
+     @-webkit-keyframes bottom{
+  from{
+  -ms-webkit-transform:translate(0px, 1000px);
+  -webkit-transform:translate(0px, 1000px);
+  transform:translate(0px, 1000px);
+}
+}
+@media only screen and (orientation:landscape){body{
+  background-image("ani.jpg");
+  padding-top:10%;}
+  .login{
+    background:white;
+  }

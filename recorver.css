@@ -1,0 +1,46 @@
+   
+   
+   body{
+     background-image:url("ani.jpg");
+   }
+   .head{
+     text-align:center;
+     color:white;
+     -webkit-animation: slide 1s reverse ease-in 0s 1 both;
+   }
+   .input{
+  border-radius:5px;
+  -webkit-animation: slide 2s reverse ease-in 0s 1 both;
+  background:lightgrey;
+  padding-left:5%;
+  border:1px;
+  border-style:solid;
+  width:95%;
+  height:35px;
+}
+.or{
+  text-align:center;
+  color:white;
+  -webkit-animation: slide 2s reverse ease-in 0s 1 both;
+}
+.p{
+  -webkit-animation: slide 2.5s reverse ease-in 0s 1 both;
+  color:white;
+}
+.submit{
+  -webkit-animation: slide 2.5s reverse ease-in 0s 1 both;
+  background:lightgrey;
+  color:white;
+  border-radius:15px;
+  border:1px solid white;
+  text-align:center;
+}
+
+@-webkit-keyframes slide{
+  to{
+  -ms-webkit-transform:translate(1000px, 0px);
+  -webkit-transform:translate(1000px, 0px);
+  transform:translate(1000px, 0px);
+}
+}
+@media only screen and (orientation:landscape){body{background-image: url ("ani.jpg");
